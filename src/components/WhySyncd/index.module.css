@@ -1,0 +1,904 @@
+/* banner section css start*/
+.bannerbg {
+  background-image: linear-gradient(
+    265deg,
+    #523578 1.03%,
+    #d32864 51.26%,
+    #f59433 93.99%
+  );
+  padding: 102px 0px;
+}
+
+.headingbg {
+  background-image: url("/public/images/whysyncd/whysyncd.png");
+  height: 77px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headingbg h1 {
+  margin: 0px;
+  padding-left: 5px;
+  padding-top: 29px;
+  color: #fff8f5;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+/* banner section css end*/
+/* Features css start*/
+.featuresbg {
+  padding: 50px 0 0px;
+  background: #fff8f5;
+}
+
+.heading h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #07242f;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.heading p {
+  color: #6c6c72;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.features {
+  padding: 80px 0;
+}
+
+.featuresbox h1,
+.featuresbx h1,
+.featuresbox3 h1,
+.featuresbx2 h1 {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.featuresbox p,
+.featuresbx p,
+.featuresbox3 p,
+.featuresbx2 p {
+  color: #fff8f5;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.featuresbox:hover,
+.featuresbx:hover,
+.featuresbox3:hover,
+.featuresbx2:hover {
+  transform: scale(1.07);
+  transition: all 0.5s ease-in-out;
+  background: linear-gradient(
+    137.51deg,
+    #583477 -11.87%,
+    #c42a66 47.28%,
+    #f38d36 111.76%
+  );
+}
+.featuresbox {
+  margin-top: -50px;
+  display: flex;
+  padding: 36px 19px;
+  border-radius: 20px;
+  background: #f59433;
+  box-shadow: 0px 0px 8px 0.5px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuresbx {
+  border-radius: 20px;
+  background: #5f3376;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 19px;
+  box-shadow: 0px 0px 8px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+.featuresbox3 {
+  background: #c72966;
+  margin-top: -50px;
+  display: flex;
+  padding: 36px 19px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 0.5px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuresbx2 {
+  border-radius: 20px;
+  background: #f59433;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 19px;
+  box-shadow: 0px 0px 8px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+/* Features css start*/
+.choosebg {
+  padding: 80px 0 50px;
+  background: #f4f4f4;
+}
+
+.imagearea {
+  width: 100%;
+  height: 100%;
+}
+
+.imagearea img {
+  width: 100%;
+}
+
+.textarea {
+  padding-left: 70px;
+}
+
+.textarea h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #07242f;
+}
+.textcheck ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.textarea p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #3c3c3c;
+  opacity: 0.7;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.textcheck ul,
+.textslide ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.textcheck ul li {
+  list-style: none;
+}
+
+.textcheck ul li:nth-child(1) {
+  padding-top: 0px;
+}
+.textcheck ul li:hover {
+  transform: translateX(5px);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.textcheck ul li span {
+  font-size: 18px;
+  padding-left: 17px;
+  font-weight: 400;
+  line-height: 32px;
+  opacity: 0.7;
+  letter-spacing: 0em;
+  color: #3c3c3c;
+  text-align: left;
+}
+
+/* Features css end*/
+/* our expert css start*/
+.expertbg {
+  padding: 50px 0;
+  background: #fff8f5;
+}
+
+.boxbg {
+  padding: 30px 19px 30px 22px;
+  border: 2px solid #d8d8d8;
+  background: #fff8f5;
+  height: 100%;
+}
+
+.boxbg h1 {
+  color: #1e2244;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.boxbg p {
+  color: #404040;
+  font-size: 15px;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.textslide ul li {
+  list-style: none;
+}
+
+.textslide ul li span {
+  color: #3c3c3c;
+  padding-left: 10px;
+  font-size: 20px;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+/* our expert css end*/
+/* contact css start*/
+.contactbg {
+  margin-bottom: 420px;
+  position: relative;
+  background: #f4f4f4;
+  padding: 50px 0;
+}
+
+.contacttext h1 {
+  color: #07242f;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.contacttext p {
+  color: #6c6c72;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.formbg {
+  z-index: 99;
+  top: 50px;
+  width: 390px;
+  right: 10%;
+  position: absolute;
+  padding: 50px 25px;
+  border-radius: 20px;
+  background: linear-gradient(
+    100deg,
+    #50316e -26.34%,
+    #9a2b5d 47.96%,
+    #df8935 119.93%
+  );
+}
+
+.textareaform {
+  width: 100% !important;
+  height: 90px;
+  padding: 10px 0 10px 15px;
+}
+
+.forminput {
+  border-radius: 0px !important;
+  margin-top: 20px !important;
+  padding: 17px !important;
+}
+
+.name span {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  left: 72px;
+  top: 8px;
+}
+
+.email span {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  left: 115px;
+  top: 8px;
+}
+
+.phone span {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  left: 72px;
+  top: 8px;
+}
+.satarTextArea {
+  position: relative;
+}
+.satarTextArea label {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  left: 210px !important;
+  top: 7px;
+}
+
+.forminput::placeholder {
+  color: #cfcfcf !important;
+}
+
+.textareaform::placeholder {
+  color: #cfcfcf !important;
+}
+
+.formbtn {
+  color: #fff8f5;
+  font-size: 20px;
+  font-weight: 400;
+  border: none !important;
+  line-height: normal;
+  border-radius: 1.485px;
+  background: #f59435;
+}
+
+.formbtn:hover {
+  border: none !important;
+  background: #c72966;
+  transform: scale(1.07);
+  transition: all 0.5s ease-in-out;
+}
+
+/* contact css end*/
+
+/* ===============================** media query  **======================================= */
+@media (min-width: 170px) and (max-width: 560px) {
+  .textcheck ul li span {
+    font-size: 14px !important;
+    padding-left: 17px;
+    font-weight: 400;
+    line-height: 42px;
+    opacity: 0.7;
+    letter-spacing: 0em;
+    color: #3c3c3c;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .textcheck {
+    padding-left: 20px;
+  }
+
+  .textcheck ul li span {
+    font-size: 16px;
+    padding-left: 17px;
+    font-weight: 400;
+    line-height: 38px;
+    opacity: 0.7;
+    letter-spacing: 0em;
+    color: #3c3c3c;
+    text-align: left;
+  }
+  .imagearea img {
+    width: 55%;
+  }
+
+  .imagearea {
+    text-align: center;
+  }
+
+  .featuresbox h1,
+  .featuresbx h1,
+  .featuresbox3 h1,
+  .featuresbx2 h1 {
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .headingbg {
+    height: 50px;
+    background-size: contain;
+  }
+
+  .bannerbg {
+    padding: 80px 0;
+  }
+
+  .headingbg h1 {
+    padding-left: 0px;
+    padding-top: 4px;
+    font-size: 39px;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .textarea h1 {
+    margin-top: 30px;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .textarea p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .boxbg {
+    padding: 30px 19px 30px 22px;
+    border: 2px solid #d8d8d8;
+    background: #fff8f5;
+    height: 100%;
+  }
+
+  .contacttext h1 {
+    font-size: 34px;
+    text-align: center;
+    line-height: 44px;
+  }
+
+  .contactbg {
+    margin-bottom: 0px;
+    padding: 30px 0 644px;
+  }
+
+  .contacttext p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .heading p {
+    font-size: 16px;
+  }
+
+  .features {
+    padding: 0px;
+  }
+
+  .featuresbox,
+  .featuresbx,
+  .featuresbox3,
+  .featuresbx2 {
+    margin: 15px 10px !important;
+  }
+
+  .textarea {
+    padding-left: 0px;
+  }
+
+  .formbg {
+    top: 305px;
+    width: 390px;
+    right: 4% !important;
+    position: absolute;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .boxbg {
+    padding: 30px 19px 30px 22px;
+    border: 2px solid #d8d8d8;
+    background: #fff8f5;
+    height: 100%;
+  }
+
+  .textcheck ul li span {
+    font-size: 15px !important;
+    padding-left: 17px;
+    font-weight: 400;
+    line-height: 42px;
+    opacity: 0.7;
+    letter-spacing: 0em;
+    color: #3c3c3c;
+    text-align: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contacttext p {
+    color: #6c6c72;
+    font-size: 16px;
+  }
+  .contactbg {
+    margin-bottom: 420px;
+    position: relative;
+    background: #f4f4f4;
+    padding: 130px 0;
+  }
+  /* .boxbg{
+    height: 85%;
+} */
+
+  .imagearea img {
+    width: 45%;
+  }
+  .imagearea {
+    text-align: center;
+  }
+
+  .heading h1 {
+    font-size: 33px;
+    line-height: 43px;
+  }
+
+  .headingbg h1 {
+    padding-top: 15px;
+  }
+
+  .headingbg {
+    height: 66px;
+    background-size: contain;
+  }
+
+  .heading br {
+    display: none;
+  }
+
+  .heading p {
+    font-size: 16px;
+  }
+
+  .featuresbox3 {
+    margin-top: -10px;
+  }
+
+  .textarea h1 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+    color: #07242f;
+  }
+  .textarea p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #3c3c3c;
+    opacity: 0.7;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .featuresbx2 {
+    margin-top: 40px;
+  }
+
+  .features {
+    padding: 80px 0 50px;
+  }
+
+  .textarea {
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+
+  .boxbg h1 {
+    font-size: 20px;
+  }
+
+  .textslide ul li span {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .boxbg {
+    padding: 20px 15px 20px 15px;
+  }
+
+  .boxbg p {
+    margin: 0;
+  }
+
+  .contacttext h1 {
+    font-size: 35px;
+    line-height: 47px;
+  }
+
+  .formbg {
+    width: 330px;
+    right: 3%;
+  }
+
+  .forminput {
+    margin-top: 10px !important;
+    padding: 10px !important;
+  }
+
+  .textareaform {
+    height: 77px;
+  }
+
+  .contactbg {
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .featuresbx {
+    margin-bottom: 26px;
+  }
+
+  .featuresbox h1,
+  .featuresbx h1,
+  .featuresbox3 h1,
+  .featuresbx2 h1 {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .bannerbg {
+    padding: 80px 0px;
+  }
+
+  .heading h1 {
+    font-size: 28px;
+    line-height: 43px;
+  }
+  .heading p {
+    font-size: 18px;
+  }
+  .headingbg {
+    height: 77px;
+    background-size: contain;
+  }
+
+  .headingbg h1 {
+    padding-top: 8px;
+  }
+
+  .textarea h1 {
+    font-size: 28px;
+    line-height: 49px;
+  }
+  .textarea p {
+    font-size: 18px;
+  }
+  .textcheck ul li span {
+    font-size: 15px;
+  }
+
+  .imagearea img {
+    object-fit: fill;
+    height: 588px;
+    width: 100%;
+  }
+
+  .contacttext h1 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .contactbg {
+    margin-bottom: 40px;
+  }
+  .contacttext p {
+    color: #6c6c72;
+    font-size: 18px;
+  }
+  .formbg {
+    right: 4%;
+    top: 16px;
+    padding: 15px 16px;
+  }
+
+  .forminput {
+    margin-top: 15px !important;
+    padding: 10px !important;
+  }
+
+  .textareaform {
+    height: 60px;
+  }
+  .textslide ul li span {
+    color: #3c3c3c;
+    padding-left: 10px;
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 33px;
+  }
+  .boxbg h1 {
+    color: #1e2244;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .featuresbox h1,
+  .featuresbx h1,
+  .featuresbox3 h1,
+  .featuresbx2 h1 {
+    color: #fff;
+    font-size: 17px;
+  }
+  .bannerbg {
+    padding: 80px 0px;
+  }
+
+  .heading h1 {
+    font-size: 39px;
+    line-height: 43px;
+  }
+
+  .headingbg {
+    height: 77px;
+    background-size: contain;
+  }
+
+  .headingbg h1 {
+    padding-top: 17px;
+  }
+
+  .textarea h1 {
+    font-size: 35px;
+    line-height: 49px;
+  }
+
+  .textcheck ul li span {
+    font-size: 15px;
+  }
+
+  .imagearea img {
+    height: 550px;
+    width: 100%;
+  }
+
+  .contacttext h1 {
+    font-size: 34px;
+    line-height: 45px;
+  }
+
+  .textslide ul li span {
+    font-size: 19px;
+  }
+
+  .contactbg {
+    padding: 80px 0;
+    margin-bottom: 40px;
+  }
+
+  .formbg {
+    right: 4%;
+    top: 35px;
+    padding: 20px 15px;
+  }
+
+  .forminput {
+    margin-top: 15px !important;
+    padding: 10px !important;
+  }
+
+  .boxbg h1 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .textareaform {
+    height: 60px;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1439px) {
+  .featuresbox h1,
+  .featuresbx h1,
+  .featuresbox3 h1,
+  .featuresbx2 h1 {
+    color: #fff;
+    font-size: 17px;
+  }
+  .headingbg {
+    height: 77px;
+    background-size: contain;
+  }
+
+  .boxbg h1 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .textslide ul li span {
+    font-size: 19px;
+  }
+
+  .headingbg h1 {
+    padding-top: 19px;
+  }
+
+  .imagearea img {
+    object-fit: contain;
+    width: 100%;
+    height: 560px;
+  }
+
+  .boxbg h1 {
+    padding-top: 10px;
+    font-size: 22px;
+  }
+
+  .textarea p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .textarea h1 {
+    font-size: 37px;
+    line-height: 47px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1679px) {
+  .headingbg {
+    height: 66px;
+    background-size: contain;
+  }
+
+  .imagearea img {
+    height: 580px;
+    width: 100%;
+  }
+
+  .textarea h1 {
+    font-size: 45px;
+  }
+
+  .textarea p {
+    font-size: 21px;
+  }
+
+  .headingbg h1 {
+    padding-top: 14px;
+  }
+}
+
+@media (min-width: 1680px) and (max-width: 1920px) {
+  .headingbg {
+    height: 66px;
+    background-size: contain;
+  }
+
+  .headingbg h1 {
+    padding-top: 14px;
+  }
+}
+
+@media (min-width: 1680px) and (max-width: 1920px) {
+  .imagearea img {
+    object-fit: contain;
+    height: 580px;
+    width: 100%;
+  }
+
+  .textarea p {
+    font-size: 21px;
+  }
+
+  .textarea h1 {
+    font-size: 46px;
+  }
+
+  .headingbg {
+    height: 66px;
+    background-size: contain;
+  }
+
+  .headingbg h1 {
+    padding-top: 14px;
+  }
+}

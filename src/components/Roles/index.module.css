@@ -1,0 +1,814 @@
+/* banner section css start*/
+.bannerbg {
+  background-image: linear-gradient(
+    265deg,
+    #523578 1.03%,
+    #d32864 51.26%,
+    #f59433 93.99%
+  );
+  padding: 150px 0px;
+}
+
+.headingbg {
+  background-image: url("/public/images/roles/roles.png");
+  height: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.headingbg h1 {
+  margin: 0px;
+  padding-top: 5px;
+  color: #fff8f5;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+/* banner section css end*/
+/* side section css start*/
+
+.sidebg {
+  background: #fafafa;
+  margin-top: 30px;
+  padding: 40px 0px;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.sideheading {
+  padding: 0px 30px;
+}
+
+.sideheading h6 {
+  color: #121212;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.69px;
+}
+
+.sideheading hr {
+  margin-top: 20px;
+  border: 0 !important;
+  height: 4px !important;
+  background: linear-gradient(
+    90deg,
+    #f59433 0 21%,
+    #f59433 19% 38%,
+    #d9d9d9 34% 80%
+  );
+  opacity: 1 !important;
+}
+
+.headerbg {
+  padding: 0px;
+  border: none;
+}
+
+.headerbg1 {
+  border: none;
+}
+
+.headercolor::after {
+  content: ">";
+  right: 42px;
+  top: 16px;
+  position: absolute;
+  font-size: 22px;
+  color: #d7d7d7;
+  z-index: 55555;
+}
+
+.headercolor {
+  position: relative;
+  background: #fafafa;
+  padding: 0px 30px;
+  border: none;
+  border-radius: 0px;
+}
+
+.headerbg hr {
+  height: 2px;
+  background: #6e6e6e;
+  margin: 0 auto;
+  border: none;
+}
+
+.headerbg button {
+  padding: 20px 0px;
+  background: none;
+  color: #828282;
+  font-size: 12px;
+  text-align: start;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.7px;
+  border: none;
+}
+
+.iconimg {
+  height: 40px;
+  width: 40px;
+}
+
+.iconbox h1 {
+  border-bottom: 2px solid #d9d9d9;
+  color: #121212;
+  font-size: 14px;
+
+  margin: 0 30px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  line-height: 23px;
+  padding: 15px 0;
+}
+
+.listbodybg {
+  background: #fafafa;
+  padding: 0px;
+}
+
+.headercolor:hover .headerbg hr {
+  color: #f59433 !important;
+}
+
+.headercolor:hover {
+  background: #f59433;
+}
+
+.headercolor:hover button {
+  color: #fff;
+}
+
+.inputslide {
+  background: #efefef;
+  border-radius: 0px;
+  font-size: 12px;
+  border: none;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 15px;
+  padding: 15px 10px;
+}
+
+.inputslide::placeholder {
+  color: #c6c6c8;
+}
+
+.textareas::placeholder {
+  font-size: 12px;
+  color: #c6c6c8;
+  font-weight: 400;
+}
+
+.iconimg {
+  width: 40px;
+  height: 40px;
+}
+
+.textareas {
+  background: #efefef;
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 0px;
+  height: 100px;
+}
+
+.formbtn {
+  margin-top: 15px;
+  color: #fff8f5;
+  font-size: 13.015px;
+  padding: 10px 30px;
+  font-weight: 500;
+  border: none;
+  line-height: normal;
+  border-radius: 0.868px;
+  background: #f59435;
+}
+
+.formboxpadding {
+  padding: 0px 30px;
+}
+
+/* side section css end*/
+/* text section css start*/
+.heroimage img {
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.herotextarea {
+  margin: 20px;
+}
+
+.herotextarea h1 {
+  color: #07242f;
+  font-size: 39px;
+  font-weight: 600;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+
+.herotextarea p {
+  color: #3c3c3c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.herotextarea h4 {
+  color: #07242f;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.textslide ul {
+  margin: 0;
+  padding: 0;
+}
+
+.textslide ul li {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.textslide ul li span {
+  color: #3c3c3c;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 42px;
+  opacity: 0.7;
+  padding-left: 17px;
+  text-align: left;
+}
+
+.herotextareabg {
+  padding: 20px 0;
+  background: #f4f4f4;
+}
+
+/* text section css end*/
+
+/* box section css start*/
+
+.rolebox {
+  background: #fff8f5;
+  padding: 25px 15px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 2px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+.rolebox h1 {
+  color: #07242f;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 13px 0 10px;
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+.rolebox p {
+  color: #6c6c72;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0px;
+  line-height: normal;
+}
+
+.roleboximg {
+  height: 50px;
+  width: 50px;
+}
+
+.herotextmarn {
+  margin: 20px 20px 0 20px;
+}
+
+/* box section css end*/
+
+/* costs section css start*/
+.costsbg {
+  margin: 60px 0px 0px;
+  padding: 50px;
+  /* background-attachment: fixed; */
+  background-image: url("/public/images/roles/costrolebg.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.costsbg h1 {
+  color: #fff8f5;
+  text-align: center;
+  font-size: 41px;
+  font-weight: 500;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+
+.costsbg p {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+/* costs section css end*/
+
+/* jurney css  */
+
+.jurnerToday {
+  border-radius: 16px;
+  background: linear-gradient(
+    100deg,
+    #50316e -26.34%,
+    #9a2b5d 47.96%,
+    #df8935 119.93%
+  );
+}
+
+.rowsJurney {
+  padding: 80px 30px;
+}
+
+.jurnerToday h3 {
+  color: #fff8f5;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.startJurney span {
+  color: #fff8f5;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.helping {
+  margin-left: 10px;
+}
+
+.contacBtn {
+  margin: auto;
+  text-align: center;
+}
+
+.jurneyImg {
+  border: none;
+  padding: 10px;
+  background: #f38e36;
+  font-size: 20px;
+  color: #fff;
+  padding: 13px 36px;
+  border-radius: 10px;
+}
+
+/* jurney css  */
+
+/* ================================** media query**============================== */
+@media (max-width: 767px) {
+  .bannerbg {
+    padding: 70px 0px;
+  }
+
+  .sidebg {
+    margin-top: 20px;
+  }
+
+  .heroimage img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .herotextarea h1,
+  .herotextarea h4 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 34px;
+  }
+
+  .herotextarea {
+    margin: 0px;
+  }
+
+  .herotextarea p {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .textslide ul li span {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .herotextareabg {
+    padding: 22px 10px;
+  }
+
+  .textslide ul li,
+  .rolebox p {
+    text-align: center;
+  }
+
+  .herotextmarn {
+    margin: 20px 0;
+  }
+
+  .rolebox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .costsbg {
+    margin: 30px 0px 0px;
+    padding: 25px 15px;
+    background-repeat: no-repeat;
+  }
+
+  .costsbg h1 {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .costsbg p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .jurnerToday h3 {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .rowsJurney {
+    padding: 40px 15px;
+  }
+
+  .startJurney span {
+    font-size: 18px;
+  }
+
+  .jurneyImg {
+    margin-top: 15px !important;
+    padding: 5px 12px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 920px) {
+  .bannerbg {
+    padding: 70px 0px;
+  }
+
+  .sidebg {
+    margin-top: 20px;
+  }
+
+  .heroimage img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .herotextarea h1,
+  .herotextarea h4 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 34px;
+  }
+
+  .herotextarea {
+    margin: 0px;
+  }
+
+  .herotextarea p {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .textslide ul li span {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .herotextareabg {
+    padding: 22px 10px;
+  }
+
+  .textslide ul li,
+  .rolebox p {
+    text-align: center;
+  }
+
+  .herotextmarn {
+    margin: 20px 0;
+  }
+
+  .rolebox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .costsbg {
+    margin: 30px 0px 0px;
+    padding: 25px 15px;
+    background-repeat: no-repeat;
+  }
+
+  .costsbg h1 {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .costsbg p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .jurnerToday h3 {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .rowsJurney {
+    padding: 40px 15px;
+  }
+
+  .startJurney span {
+    font-size: 18px;
+  }
+
+  .jurneyImg {
+    margin-top: 15px !important;
+    padding: 5px 12px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 921px) and (max-width: 1023px) {
+  .bannerbg {
+    padding: 70px 0px;
+  }
+
+  .sidebg {
+    margin-top: 20px;
+  }
+
+  .heroimage img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .herotextarea h1,
+  .herotextarea h4 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 34px;
+  }
+
+  .herotextarea {
+    margin: 0px;
+  }
+
+  .herotextarea p {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .textslide ul li span {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .herotextareabg {
+    padding: 22px 10px;
+  }
+
+  .textslide ul li,
+  .rolebox p {
+    text-align: center;
+  }
+
+  .herotextmarn {
+    margin: 20px 0;
+  }
+
+  .rolebox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .costsbg {
+    margin: 30px 0px 0px;
+    padding: 25px 15px;
+    background-repeat: no-repeat;
+  }
+
+  .costsbg h1 {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .costsbg p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .jurnerToday h3 {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .rowsJurney {
+    padding: 40px 15px;
+  }
+
+  .startJurney span {
+    font-size: 18px;
+  }
+
+  .jurneyImg {
+    margin-top: 15px !important;
+    padding: 5px 12px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* sidebr css */
+
+  .sideheading h6 {
+    font-size: 19px;
+  }
+
+  .sideheading,
+  .headercolor,
+  .formboxpadding {
+    padding: 0px 10px;
+  }
+
+  .headercolor::after {
+    right: 15px;
+  }
+
+  .bannerbg {
+    padding: 70px 0px;
+  }
+
+  .sidebg {
+    margin-top: 20px;
+  }
+
+  .heroimage img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .herotextarea h1,
+  .herotextarea h4 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .herotextarea {
+    margin: 0px;
+  }
+
+  .herotextarea p {
+    font-size: 17px;
+  }
+
+  .textslide ul li span {
+    font-size: 13px;
+    line-height: 26px;
+  }
+
+  .herotextareabg {
+    padding: 22px 10px;
+  }
+
+  .herotextmarn {
+    margin: 20px 0;
+  }
+
+  .costsbg {
+    margin: 30px 0px 0px;
+    padding: 25px 15px;
+    background-repeat: no-repeat;
+  }
+
+  .costsbg h1 {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .costsbg p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .jurnerToday h3 {
+    font-size: 23px;
+  }
+
+  .rowsJurney {
+    padding: 40px 15px;
+  }
+
+  .startJurney span {
+    font-size: 18px;
+  }
+
+  .jurneyImg {
+    margin-top: 15px !important;
+    padding: 5px 12px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .herotextarea h1 {
+    font-size: 33px;
+    line-height: 40px;
+  }
+
+  .herotextarea h4 {
+    font-size: 23px;
+  }
+
+  .textslide ul li span {
+    font-size: 16px;
+  }
+
+  .herotextarea p {
+    font-size: 16px;
+  }
+
+  .rolebox h1 {
+    font-size: 15px;
+  }
+
+  .costsbg h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .jurnerToday h3 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1439px) {
+  .herotextarea h1 {
+    font-size: 33px;
+    line-height: 40px;
+  }
+
+  .herotextarea h4 {
+    font-size: 23px;
+  }
+
+  .textslide ul li span {
+    font-size: 16px;
+  }
+
+  .herotextarea p {
+    font-size: 16px;
+  }
+
+  .rolebox h1 {
+    font-size: 15px;
+  }
+
+  .costsbg h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .jurnerToday h3 {
+    font-size: 35px;
+  }
+}

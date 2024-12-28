@@ -1,0 +1,1205 @@
+/* banner section css start*/
+.bannerbg {
+  background-image: linear-gradient(
+    265deg,
+    #523578 1.03%,
+    #d32864 51.26%,
+    #f59433 93.99%
+  );
+  padding: 102px 0px;
+}
+
+.staffingImage img {
+  width: 100%;
+  height: 689px;
+  object-fit: cover;
+}
+
+.heroimg {
+  margin-top: 10px;
+}
+
+.headingbg {
+  background-image: url("/public/images/INDUSTRIES/Industries.png");
+  height: 77px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.headingbg h1 {
+  margin: 0px;
+  padding-left: 5px;
+  padding-top: 29px;
+  color: #fff8f5;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+/* banner section css end*/
+
+/* staffing section start  */
+.staffingContent h2 {
+  font-size: 48px !important;
+  font-weight: 600 !important;
+  margin: 20px 0px;
+}
+
+.staffingtabs {
+  padding: 70px 20px 40px;
+}
+
+.staffingContent p {
+  color: #3c3c3c !important;
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.7;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+.staffingContent {
+  padding: 20px;
+}
+
+/* staffing section start  */
+
+/* hire section start  */
+.hireMain {
+  background-color: #eeeeee;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.hireMain img {
+  margin-right: 16px;
+}
+
+.stepsHire h1 {
+  color: #07242f;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+
+.stepsHire p {
+  margin-top: 20px;
+  color: #3c3c3c;
+  opacity: 0.7;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/* hire section end here  */
+
+/* outsourcing section css start*/
+
+.steps h1 {
+  color: #07242f;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+
+/* step section css start*/
+.steps {
+  /* min-width: 1077px; */
+  margin: 40px 0;
+}
+
+.stepboxbg {
+  margin-top: 40px;
+  position: relative;
+  padding: 40px 30px;
+  display: inline-block;
+}
+
+.stepboxbg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 3px;
+  /* control the border thickness */
+  background: linear-gradient(
+    141.07deg,
+    #f59433 1.84%,
+    #cf2865 47.77%,
+    #5c3477 99.59%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  /* mask-composite: exclude; */
+  /* pointer-events: none; */
+}
+
+.stepboxbg h1 {
+  margin-top: 15px;
+  color: #07242f;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.stepboxbg p {
+  color: #3c3c3c;
+  opacity: 0.8;
+  font-size: 15px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.steps p {
+  margin-top: 30px;
+  color: #3c3c3c;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+/* step section css end*/
+
+/* transprant pricing start*/
+.featuresbg {
+  padding: 80px 0px 100px 0px;
+  background: #eeeeee;
+}
+
+.heading h1 {
+  text-align: center;
+
+  font-size: 48px;
+  color: #07242f;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.heading p {
+  color: #6c6c72;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.features {
+  padding: 80px 0px 0px 0px;
+}
+
+.featuresbox h1,
+.featuresbx h1,
+.featuresbox3 h1,
+.featuresbx2 h1 {
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.featuresbox p,
+.featuresbx p,
+.featuresbox3 p,
+.featuresbx2 p {
+  color: #fff8f5;
+  text-align: center;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.featuresbox {
+  margin-top: -50px;
+  display: flex;
+  padding: 13px 9px;
+  border-radius: 20px;
+  background: #f59433;
+  box-shadow: 0px 0px 8px 0.5px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuresbx {
+  border-radius: 20px;
+  background: #5f3376;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 9px;
+  box-shadow: 0px 0px 8px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+.featuresbox3 {
+  background: #c72966;
+  margin-top: -50px;
+  display: flex;
+  padding: 13px 9px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 0.5px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuresbx2 {
+  border-radius: 20px;
+  background: #f59433;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 25px;
+  box-shadow: 0px 0px 8px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+.featuresbx img,
+.featuresbox img,
+.featuresbox3 img {
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 44px;
+  width: 75px;
+  padding: 12px;
+}
+
+.staff:after {
+  content: "";
+  background: url(/public/images/INDUSTRIES/plus.png) no-repeat;
+  position: absolute;
+  top: 94px;
+  width: 65px;
+  height: 66px;
+  left: 170px;
+}
+
+.staff {
+  position: relative;
+}
+
+.featuresbox3 {
+  position: relative;
+}
+
+.featuresbox3:after {
+  content: "";
+  background: url(/public/images/INDUSTRIES/minus.png) no-repeat;
+  position: absolute;
+  top: 94px;
+  width: 65px;
+  height: 66px;
+  left: -51px;
+}
+
+.outSourceWork {
+  background-color: #fff;
+}
+
+.outSourceWork img {
+  width: 100%;
+}
+
+/* transprant pricing end */
+
+/* based staffing css start*/
+.choosebg {
+  padding: 80px 0 50px;
+  background: #f4f4f4;
+}
+
+.choosebgOne {
+  padding: 80px 0 50px;
+}
+
+.imagearea {
+  width: 100%;
+  height: 100%;
+}
+
+.imagearea img {
+  width: 100%;
+}
+
+.office {
+  margin: auto;
+}
+
+.textarea h1 {
+  font-size: 43px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #07242f;
+}
+
+.textarea p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #6c6c72;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.textcheck ul,
+.textslide ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.textcheck ul li {
+  list-style: none;
+}
+
+.textcheck ul li:nth-child(1) {
+  padding-top: 0px;
+}
+
+.textcheck ul li span {
+  font-size: 20px;
+  padding-left: 17px;
+  font-weight: 400;
+  line-height: 42px;
+
+  letter-spacing: 0em;
+  color: #6c6c72;
+  text-align: left;
+}
+
+/* based staffing css end*/
+
+/* jurney css  */
+
+.jurnerToday {
+  border-radius: 16px;
+  background: linear-gradient(
+    100deg,
+    #50316e -26.34%,
+    #9a2b5d 47.96%,
+    #df8935 119.93%
+  );
+}
+
+.rowsJurney {
+  padding: 80px 30px;
+}
+
+.jurnerToday h3 {
+  color: #fff8f5;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.startJurney span {
+  color: #fff8f5;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.helping {
+  margin-left: 10px;
+}
+
+.contacBtn {
+  margin: auto;
+  text-align: center;
+}
+
+.jurneyImg {
+  border: none;
+  padding: 10px;
+  background: #f38e36;
+  font-size: 20px;
+  color: #fff;
+  padding: 13px 36px;
+  border-radius: 10px;
+}
+
+/* jurney css  */
+/* ==============================**media css**======================================= */
+
+@media (min-width: 320px) and (max-width: 560px) {
+  .bannerbg {
+    padding: 35px 44px;
+  }
+
+  .headingbg h1 {
+    padding-top: 0px;
+    font-size: 35px;
+  }
+
+  .staffingContent {
+    padding: 30px 14px;
+  }
+
+  .staffingImage img {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  .staffingContent h2 {
+    font-size: 32px !important;
+    text-align: center;
+    font-weight: 600 !important;
+  }
+
+  .staffingContent p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .stepsHire h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .stepsHire p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .hireMain {
+    padding: 40px 10px 40px;
+  }
+
+  .staffingtabs {
+    padding: 40px 0 0 0 !important;
+  }
+
+  .steps {
+    margin: 30px 0 30px;
+  }
+
+  .steps h1 {
+    font-size: 32px;
+    line-height: 45px;
+    padding: 0px 5px;
+  }
+
+  .steps p {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  .stepboxbg {
+    text-align: center;
+    padding: 20px 30px;
+  }
+
+  .heading h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .heading p {
+    font-size: 18px;
+    padding: 10px 0px 0;
+  }
+
+  .featuresbox,
+  .featuresbx {
+    margin-bottom: 40px;
+    padding: 30px 25px;
+  }
+
+  .featuresbox h1,
+  .featuresbx h1,
+  .featuresbox3 h1,
+  .featuresbx2 h1 {
+    color: #fff;
+    font-size: 28px;
+  }
+
+  .featuresbox3 {
+    margin-top: 0px;
+    padding: 30px 25px;
+  }
+
+  .outSourceWork {
+    padding-bottom: 30px;
+  }
+
+  .choosebg {
+    padding: 0px 0 40px;
+    background: #f4f4f4;
+  }
+
+  .textarea h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .textarea p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .textcheck ul li span {
+    font-size: 15px;
+    padding-left: 15px;
+  }
+
+  .imagearea img {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+  }
+
+  .jurnerToday h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .startJurney span {
+    font-size: 17px;
+  }
+
+  .rowsJurney {
+    padding: 40px 15px;
+  }
+
+  .jurneyImg {
+    border: none;
+    padding: 10px;
+    background: #f38e36;
+    font-size: 15px;
+    color: #fff;
+    padding: 13px 36px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .staff:after {
+    top: 293px;
+    left: 166px;
+  }
+
+  .featuresbox3:after {
+    top: -55px;
+    left: 167px;
+  }
+
+  .featuresbg {
+    padding: 40px 0px 40px 0px;
+    background: #eeeeee;
+  }
+
+  .choosebgOne {
+    padding: 40px 0px;
+  }
+
+  .office {
+    margin-top: 20px;
+  }
+
+  .stepsHire br,
+  .heading br,
+  .steps br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .bannerbg {
+    padding: 35px 44px;
+  }
+
+  .headingbg h1 {
+    padding-top: 0px;
+    font-size: 35px;
+  }
+
+  .staffingtabs {
+    padding: 30px 10px !important;
+  }
+
+  .choosebgOne {
+    padding: 40px 0px;
+  }
+
+  .office {
+    margin-top: 20px;
+  }
+
+  .staffingContent {
+    padding: 10px 14px;
+  }
+
+  .staffingImage img {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  .featuresbg {
+    padding: 40px 0px 40px 0px;
+    background: #eeeeee;
+  }
+
+  .staffingContent h2 {
+    font-size: 32px !important;
+    text-align: center;
+    font-weight: 600 !important;
+  }
+
+  .staffingContent p {
+    font-size: 19px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .stepsHire h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .stepsHire p {
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .hireMain {
+    padding: 40px 10px 20px;
+  }
+
+  .steps {
+    margin: 30px 0 30px;
+  }
+
+  .steps h1 {
+    font-size: 32px;
+    line-height: 45px;
+    padding: 0px 5px;
+  }
+
+  .steps p {
+    margin-top: 30px;
+    font-size: 19px;
+  }
+
+  .stepboxbg {
+    text-align: center;
+    padding: 20px 30px;
+  }
+
+  .staffingImage {
+    width: 80%;
+    margin: auto;
+  }
+
+  .heading h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .heading p {
+    font-size: 19px;
+    padding: 10px 0px 0;
+  }
+
+  .featuresbox,
+  .featuresbx {
+    margin-bottom: 40px;
+    padding: 30px 25px;
+  }
+
+  .featuresbox h1,
+  .featuresbx h1,
+  .featuresbox3 h1,
+  .featuresbx2 h1 {
+    color: #fff;
+    font-size: 26px;
+  }
+
+  .featuresbox3 {
+    margin-top: 40px;
+    padding: 30px 25px;
+  }
+
+  .outSourceWork {
+    padding: 20px 0;
+  }
+
+  .choosebg {
+    padding: 10px 0 40px;
+    background: #f4f4f4;
+  }
+
+  .textcheck {
+    text-align: center;
+  }
+
+  .textarea h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .textarea p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .textcheck ul li span {
+    font-size: 16px;
+    padding-left: 15px;
+  }
+
+  .imagearea img {
+    height: 400px;
+    margin: 10px auto 0 !important;
+  }
+
+  .jurnerToday h3 {
+    font-size: 28px;
+  }
+
+  .imagearea {
+    width: 80%;
+    margin: 10px auto 0 !important;
+  }
+
+  .startJurney span {
+    font-size: 20px;
+  }
+
+  .rowsJurney {
+    padding: 40px 15px;
+  }
+
+  .jurneyImg {
+    font-size: 17px;
+    padding: 13px 23px;
+  }
+
+  .staff:after {
+    top: 320px;
+    left: 133px;
+  }
+
+  .featuresbox3:after {
+    top: -73px;
+    left: 128px;
+  }
+
+  .stepsHire br,
+  .heading br,
+  .steps br {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+  .headingbg h1 {
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+
+  .staffingtabs {
+    padding: 30px 10px !important;
+  }
+
+  .choosebgOne {
+    padding: 40px 0px;
+  }
+
+  .staffingContent {
+    padding: 0px 0px 0px 15px;
+  }
+
+  .staffingImage img {
+    width: 100%;
+    height: 725px;
+    margin-top: 20px;
+  }
+
+  .featuresbg {
+    padding: 40px 0px 40px 0px;
+    background: #eeeeee;
+  }
+
+  .staffingContent h2 {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+  }
+
+  .featuresbox,
+  .featuresbox3 {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .staffingContent p {
+    font-size: 19px;
+    margin: 0px;
+  }
+
+  .stepsHire h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .stepsHire p {
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .hireMain {
+    padding: 40px 10px 20px;
+  }
+
+  .steps {
+    margin: 30px 0 30px;
+  }
+
+  .steps h1 {
+    font-size: 32px;
+    line-height: 45px;
+    padding: 0px 5px;
+  }
+
+  .steps p {
+    margin-top: 30px;
+    font-size: 19px;
+  }
+
+  .stepboxbg {
+    padding: 20px 30px;
+  }
+
+  .heading h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .heading p {
+    font-size: 19px;
+    padding: 10px 0px 0;
+  }
+
+  .featuresbox h1,
+  .featuresbx h1,
+  .featuresbox3 h1,
+  .featuresbx2 h1 {
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .outSourceWork {
+    padding-bottom: 20px;
+  }
+
+  .choosebg {
+    padding: 10px 0 40px;
+    background: #f4f4f4;
+  }
+
+  .featuresbox3:after {
+    top: 54px;
+  }
+
+  .textarea h1 {
+    font-size: 32px;
+  }
+
+  .textarea p {
+    font-size: 16px;
+  }
+
+  .textcheck ul li span {
+    font-size: 16px;
+    padding-left: 15px;
+  }
+
+  .imagearea img {
+    height: 485px;
+    margin: 10px auto 0 !important;
+  }
+
+  .jurnerToday h3 {
+    font-size: 28px;
+  }
+
+  .imagearea {
+    width: 100%;
+    margin: 10px auto 0 !important;
+  }
+
+  .startJurney span {
+    font-size: 20px;
+  }
+
+  .rowsJurney {
+    padding: 40px 15px;
+  }
+
+  .jurneyImg {
+    font-size: 17px;
+    padding: 13px 23px;
+  }
+
+  .staff:after {
+    left: 275px !important;
+  }
+
+  .stepsHire br,
+  .heading br,
+  .steps br {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .staffingImage img {
+    width: 100%;
+    height: 635px !important;
+    margin-top: 20px;
+  }
+
+  .headingbg h1 {
+    padding-left: 0px;
+    padding-top: 23px !important;
+  }
+
+  .featuresbox,
+  .featuresbox3 {
+    margin-top: -50px;
+    margin-bottom: 40px;
+  }
+
+  .staff:after {
+    top: 77px;
+    left: 142px !important;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1439px) {
+  .staffingtabs {
+    padding: 40px 10px !important;
+  }
+
+  .headingbg h1 {
+    padding-left: 0px;
+    padding-top: 23px !important;
+  }
+
+  .choosebgOne {
+    padding: 50px 0px;
+  }
+
+  .office {
+    margin-top: 20px;
+  }
+
+  .staffingContent {
+    padding: 0px 0px 0px 15px;
+  }
+
+  .staffingImage img {
+    width: 100%;
+    height: 630px;
+    margin-top: 20px;
+  }
+
+  .featuresbg {
+    padding: 60px 0px 60px 0px;
+    background: #eeeeee;
+  }
+
+  .staffingContent h2 {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+  }
+
+  .staffingContent p {
+    font-size: 19px;
+    margin: 0px;
+  }
+
+  .stepsHire h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .stepsHire p {
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .hireMain {
+    padding: 60px 10px 40px;
+  }
+
+  .steps {
+    margin: 50px 0 50px;
+  }
+
+  .steps h1 {
+    font-size: 25px;
+    line-height: 25px;
+    padding: 0px 5px;
+  }
+
+  .heading h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .heading p {
+    font-size: 19px;
+    padding: 10px 0px 0;
+  }
+
+  .featuresbox3:after {
+    top: 52px;
+  }
+
+  .featuresbox h1,
+  .featuresbx h1,
+  .featuresbox3 h1,
+  .featuresbx2 h1 {
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .outSourceWork {
+    padding-bottom: 20px;
+  }
+
+  .choosebg {
+    padding: 10px 0 40px;
+    background: #f4f4f4;
+  }
+
+  .textarea h1 {
+    font-size: 32px;
+  }
+
+  .textarea p {
+    font-size: 16px;
+  }
+
+  .textcheck ul li span {
+    font-size: 16px;
+    padding-left: 15px;
+  }
+
+  .imagearea img {
+    height: 485px;
+    margin: 10px auto 0 !important;
+  }
+
+  .jurnerToday h3 {
+    font-size: 28px;
+  }
+
+  .imagearea {
+    width: 100%;
+    margin: 10px auto 0 !important;
+  }
+
+  .startJurney span {
+    font-size: 20px;
+  }
+
+  .rowsJurney {
+    padding: 40px 15px;
+  }
+
+  .jurneyImg {
+    font-size: 17px;
+    padding: 13px 23px;
+  }
+
+  .staff:after {
+    top: 49px;
+    left: 144px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1499px) {
+  .headingbg h1 {
+    padding-left: 0px;
+    padding-top: 25px !important;
+  }
+
+  .featuresbox h1,
+  .featuresbx h1,
+  .featuresbox3 h1,
+  .featuresbx2 h1 {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .staff:after {
+    left: 173px;
+  }
+
+  .staffingImage img {
+    height: 700px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1679px) {
+  .staffingImage img {
+    width: 100%;
+    height: 625px;
+    object-fit: cover;
+  }
+
+  .headingbg h1 {
+    padding-left: 0px;
+    padding-top: 25px !important;
+  }
+
+  .staff:after {
+    left: 209px;
+  }
+}
+
+@media (min-width: 1680px) and (max-width: 1900px) {
+  .staffingImage img {
+    width: 100%;
+    height: 625px;
+    object-fit: cover;
+  }
+
+  .headingbg h1 {
+    padding-left: 0px;
+    padding-top: 26px !important;
+  }
+
+  .staff:after {
+    left: 209px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 1920px) {
+  .staffingImage img {
+    width: 100%;
+    height: 625px;
+    object-fit: cover;
+  }
+
+  .staff:after {
+    left: 209px;
+  }
+}
