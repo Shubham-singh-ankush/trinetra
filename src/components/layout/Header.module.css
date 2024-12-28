@@ -1,0 +1,127 @@
+/* mobile menu css start */
+.humbergerBtn,
+.moblieMenu {
+  display: none;
+}
+
+/* mobile menu css end */
+
+/* .navImg {
+  width: 20% !important;
+} */
+/* .navImg img {
+  width: 50%;
+} */
+
+.menuColor a {
+  color: #5f3476 !important;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.menuColor a:hover {
+  transform: scale(1.03);
+  transition: all 0.1s ease-in-out;
+}
+.indudtryColor a {
+  color: #5f3476 !important;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.menuColor li {
+  margin-right: 35px;
+}
+/* .menuColor {
+  margin-right: 35%;
+} */
+
+.WeHring button {
+  background-color: #f59433;
+  border: none;
+  color: #fff;
+  padding: 9px 12px;
+  margin-right: 20px;
+}
+
+.ContactBtn button {
+  background-color: #c72966;
+  border: none;
+  color: #fff;
+  padding: 9px 12px;
+  margin-right: 8px;
+}
+
+/* =====================service dropdown css */
+
+.industriesmenu a:hover {
+  color: #f59433 !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*============================ service drpdown css  */
+
+/* mobile css  */
+@media (min-width: 170px) and (max-width: 991px) {
+  .humbergerBtn,
+  .moblieMenu {
+    display: block;
+  }
+  .navImg img {
+    width: 65%;
+  }
+  /* .navImg {
+    width: 28% !important;
+  } */
+  .openbtn {
+    background-color: #c72966;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+    padding: 5px 19px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1599px) {
+  /* .navImg {
+    width: 16% !important;
+  } */
+}
+@media (min-width: 1366px) and (max-width: 1439px) {
+  /* .navImg {
+    width: 14% !important;
+  }
+  .navImg img {
+    width: 65%;
+  } */
+  /* .menuColor {
+    margin-right: 24%;
+  } */
+}
+
+@media (min-width: 1020px) and (max-width: 1365px) {
+  /* .navImg {
+    width: 10% !important;
+  }
+  .navImg img {
+    width: 85%;
+  }  */
+  /* .menuColor {
+    margin-right: 28%;
+  } */
+  .menuColor li {
+    margin-right: 11px;
+  }
+}
+/* mobile css  */

@@ -1,0 +1,259 @@
+/* banner section css start*/
+.bannerbg {
+  background-image: linear-gradient(
+    265deg,
+    #523578 1.03%,
+    #d32864 51.26%,
+    #f59433 93.99%
+  );
+  padding: 70px 0px;
+}
+
+.headingbg {
+  background-image: url("/public/images/Policy/CCPA\ Compliant-01.png");
+
+  height: 66px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.getInToch {
+  width: 80%;
+}
+
+.redStar {
+  color: red;
+}
+.cpaForm {
+  background-color: #efefef !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+  margin: 20px 0px;
+}
+.headingbg h1 {
+  margin: 0px;
+  padding-left: 5px;
+  padding-top: 29px;
+  color: #fff8f5;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  padding-top: 14px;
+}
+
+/* banner section css end*/
+
+.privicy h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #07242f;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+.privicy p {
+  color: #6c6c72;
+  font-size: 18px;
+}
+
+.privicy li {
+  color: #6c6c72;
+  font-size: 18px;
+}
+.priviMain {
+  padding: 6rem 0rem;
+  background-color: #fff !important;
+}
+
+.contactForm {
+  height: auto;
+  background-size: cover;
+  padding: 40px 60px;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contactMail h2 {
+  text-align: center;
+  color: #333333;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.contactMail p {
+  font-size: 20px;
+  color: #6c6c72;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.ico_get,
+.ico_get2 {
+  position: relative;
+}
+
+.privicyRequest,
+.residentRequest {
+  position: relative;
+}
+.residentRequest option,
+.privicyRequest option {
+  font-size: 16px !important;
+}
+.residentRequest lable {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  left: 233px;
+  top: 3px;
+}
+.maiSlect,
+.resChoose {
+  border-bottom: 1.5px solid #b5b5b5 !important;
+  border: none;
+  border-radius: 0px;
+}
+.privicyRequest lable {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  left: 251px;
+  top: 3px;
+}
+.emailStar span {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  left: 158px !important;
+  top: 8px;
+}
+.ico_get span {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  left: 115px;
+  top: 8px;
+}
+.ico_get span {
+  color: red;
+}
+
+.mainForm {
+  padding: 14px 14px 14px 23px;
+  border-radius: 0px;
+  border-color: #fff;
+  border-bottom: 1.5px solid #b5b5b5 !important;
+  position: relative;
+}
+/* .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  } */
+.btn .formbtn:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  background-color: #c72966;
+}
+.btn .formbtn {
+  background-color: #f59435;
+  border: 0px !important;
+  border-radius: 0px !important;
+  padding: 12px 47px;
+  margin-top: 25px;
+  width: 100%;
+}
+.textareaForm {
+  border-radius: 0px;
+  border-color: #fff;
+  border-bottom: 1.5px solid #b5b5b5 !important;
+  padding: 15px 0px 0px 20px;
+}
+.getInToch {
+  background-color: #fff;
+}
+.ico_get svg {
+  position: absolute;
+  top: 18px;
+  left: -4px;
+  z-index: 10;
+}
+.ico_get2 svg {
+  position: absolute;
+  top: 21px;
+  left: 6px;
+  z-index: 10;
+}
+.getIn_img img {
+  width: 80%;
+}
+.getIn_img {
+  text-align: right;
+}
+
+.findtextarea h6 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: white;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.bg {
+  margin-top: 122px;
+}
+.findtextarea p {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff8f5;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.findbtn {
+  margin-top: 10px;
+  background: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c72966;
+  padding: 15px 30px;
+}
+
+@media (min-width: 170px) and (max-width: 768px) {
+  .contactForm {
+    padding: 0px 8px;
+  }
+  .getInToch {
+    width: 91%;
+  }
+
+  .headingbg h1 {
+    margin: 0px;
+    padding-left: 5px;
+    padding-top: 29px;
+    color: #fff8f5;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-top: 4px;
+  }
+  .privicy p {
+    color: #6c6c72;
+    font-size: 15px;
+  }
+  .privicy li {
+    color: #6c6c72;
+    font-size: 15px;
+  }
+}

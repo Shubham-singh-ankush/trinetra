@@ -1,0 +1,568 @@
+/* banner section css start*/
+.bannerbg {
+  background-image: linear-gradient(
+    265deg,
+    #523578 1.03%,
+    #d32864 51.26%,
+    #f59433 93.99%
+  );
+  padding: 150px 0px;
+}
+
+.headingbg {
+  background-image: url("/public/images/hiring/hiring.png");
+  height: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.headingbg h1 {
+  margin: 0px;
+  padding-top: 5px;
+  color: #fff8f5;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+/* banner section css end*/
+/* job section css start*/
+.jobox {
+  background: #f59433;
+  padding: 30px 20px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.jobox h1 {
+  color: #fff8f5;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0.69px;
+  text-transform: capitalize;
+}
+
+.jobox p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.inputjob {
+  background: #fff;
+  border-radius: 0px;
+  border: none;
+}
+
+.inputjob::placeholder {
+  color: #c6c6c8;
+  font-size: 12px;
+
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: -0.36px;
+}
+
+.formbtn {
+  color: #fff8f5;
+  font-size: 13.015px;
+  font-weight: 500;
+  line-height: normal;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 0.868px;
+  background: #c72966;
+}
+
+.formbtn:hover {
+  background: #5a3477;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.filterbox {
+  margin-top: 30px;
+  background: #fafafa;
+  padding: 30px 20px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.filterbox hr {
+  margin-top: 20px;
+  border: 0 !important;
+  height: 4px !important;
+  background: linear-gradient(
+    90deg,
+    #f59433 0 21%,
+    #f59433 19% 38%,
+    #d9d9d9 34% 80%
+  );
+  opacity: 1 !important;
+}
+
+.filterbox h1 {
+  color: #121212;
+  font-size: 23px;
+
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.69px;
+  text-transform: uppercase;
+}
+
+.sidebg {
+  background: #fafafa;
+  margin-top: 30px !important;
+  padding: 40px 0px;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.intext {
+  background: #efefef;
+}
+
+.sideheading {
+  padding: 0px 20px;
+}
+
+/* right section css end*/
+.salectsec select {
+  font-size: 15px;
+  width: 100%;
+  border: none;
+  background: #efefef;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.36px;
+  color: #c6c6c8;
+  display: inline-block;
+  font: inherit;
+  padding: 0.5em 5.5em 0.5em 1em;
+  /* reset */
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* arrows */
+
+.salectsec select.salectbox {
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(20px + 2px),
+    calc(100% - 15px) calc(20px + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    8px 6px,
+    5px 5px,
+    0px 1.5em;
+  padding: 13px;
+  background-repeat: no-repeat;
+}
+
+.salectsec select.salectbox:focus {
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+
+.salectsec select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+.sideheading h6 {
+  color: #121212;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.69px;
+}
+
+.sideheading hr {
+  margin-top: 20px;
+  border: 0 !important;
+  height: 4px !important;
+  background: linear-gradient(
+    90deg,
+    #f59433 0 21%,
+    #f59433 19% 38%,
+    #d9d9d9 34% 80%
+  );
+  opacity: 1 !important;
+}
+
+.inputside {
+  background: #efefef;
+  border-radius: 0px;
+  font-size: 12px;
+  border: none;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 15px;
+  padding: 15px 10px;
+}
+
+.inputside::placeholder {
+  color: #c6c6c8;
+}
+
+.textareas::placeholder {
+  font-size: 12px;
+  color: #c6c6c8;
+  font-weight: 400;
+}
+
+.iconimg {
+  width: 40px;
+  height: 40px;
+}
+
+.textareas {
+  background: #efefef;
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 0px;
+  height: 100px;
+}
+
+.formbtn1 {
+  margin-top: 15px;
+  color: #fff8f5;
+  font-size: 13.015px;
+  padding: 10px 30px;
+  font-weight: 500;
+  border: none;
+  line-height: normal;
+  border-radius: 0.868px;
+  background: #f59435;
+}
+
+.formboxpadding {
+  padding: 0px 20px;
+}
+
+/* job section css end*/
+
+/* right section css start*/
+/* showing jobs section css end*/
+.jobshowing h1 {
+  color: #121212;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 0px;
+  line-height: 23px;
+  letter-spacing: 1.15px;
+  text-transform: capitalize;
+}
+
+.jobshowtext {
+  background: transparent;
+  display: flex;
+  color: #6c6c72;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-transform: capitalize;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.jobshowtext select {
+  color: #121212;
+  font-size: 18px;
+  font-weight: 600;
+  width: 30%;
+  border-radius: 0px;
+  border: 0px;
+  background: transparent;
+  text-transform: capitalize;
+}
+
+.flexset {
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+/* showing jobs section css end*/
+/* designation section css end*/
+.designationbg {
+  border-radius: 22px;
+  margin-top: 35px;
+  padding: 30px 20px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+.designationbg h1 {
+  color: #121212;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0 10px;
+  line-height: 23px;
+  text-transform: capitalize;
+}
+
+.designationbg p {
+  color: #6c6c72;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.designationbtn {
+  color: #6c6c72;
+  font-size: 12px;
+  padding: 5px 10px;
+  font-weight: 400;
+  border-radius: 3px;
+  background: #d9d9d9;
+  line-height: normal;
+  border: none;
+}
+
+.designationimg {
+  width: 70px;
+  height: 70px;
+}
+
+.applybtn {
+  margin-top: 20px;
+  border-radius: 7px;
+  color: #fff8f5;
+  border: none;
+  font-size: 15px;
+  padding: 10px 25px;
+  font-weight: 400;
+  line-height: normal;
+  background: #f59433;
+}
+
+.applybtn:hover {
+  background: #5a3477;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.designationbtn:hover {
+  background: #f59433;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* designation section css end*/
+
+.items a {
+  background: #fff !important;
+  color: #000;
+  margin: 0 24px;
+  font-size: 21px;
+  font-weight: 500;
+  width: 50px;
+  display: flex;
+  height: 40px;
+  line-height: normal;
+  text-transform: capitalize;
+  align-items: center;
+  border: none;
+  justify-content: center;
+}
+
+.items1 a {
+  background: #fff !important;
+  color: #000;
+  margin-right: 24px;
+  font-size: 45px;
+  border: none;
+  font-weight: 500;
+  height: 40px;
+  border: none;
+  display: flex;
+  width: 50px;
+  line-height: normal;
+  text-transform: capitalize;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemsdot {
+  display: flex;
+  width: 80px;
+  height: 20px;
+  margin-right: 24px;
+  flex-shrink: 0;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemsdot h1 {
+  font-size: 53px;
+  margin-right: 3px;
+  color: #f59433 !important;
+}
+
+/* ========================= **media query **====================================== */
+@media (max-width: 767px) {
+  .pegiwidth {
+    display: none;
+  }
+
+  .flexset {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .jobshowing h1 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .jobshowtext {
+    justify-content: center;
+  }
+
+  .jobshowtext select {
+    width: 35%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 920px) {
+  .pegiwidth {
+    display: none;
+  }
+
+  .jobshowing h1 {
+    font-size: 16px;
+  }
+
+  .jobshowtext select {
+    font-size: 16px;
+    width: 67%;
+  }
+
+  .jobshowtext {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 921px) and (max-width: 1023px) {
+  .pegiwidth {
+    display: none;
+  }
+
+  .jobshowing h1 {
+    font-size: 16px;
+  }
+
+  .jobshowtext select {
+    font-size: 16px;
+    width: 67%;
+  }
+
+  .jobshowtext {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .items1 a,
+  .items a,
+  .itemsdot {
+    margin-right: 16px !important;
+    width: 37px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .items1 a,
+  .items a,
+  .itemsdot {
+    margin-right: 13px !important;
+  }
+
+  .designationimg {
+    height: 40px;
+    width: 40px;
+  }
+
+  .designationbg h1 {
+    font-size: 16px;
+  }
+
+  .designationbg p {
+    font-size: 12px;
+  }
+
+  .designationbg {
+    padding: 30px 14px !important;
+  }
+
+  .designationbtn {
+    font-size: 12px;
+    padding: 5px 5px;
+  }
+
+  .applybtn {
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1439px) {
+  .items1 a,
+  .items a,
+  .itemsdot {
+    margin-right: 13px !important;
+  }
+
+  .designationimg {
+    height: 50px;
+    width: 50px;
+  }
+
+  .designationbg h1 {
+    font-size: 16px;
+  }
+
+  .designationbg p {
+    font-size: 12px;
+  }
+
+  .designationbg {
+    padding: 30px 14px !important;
+  }
+
+  .designationbtn {
+    font-size: 12px;
+    padding: 5px 5px;
+  }
+
+  .applybtn {
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1679px) {
+  .pegiwidth {
+    width: 86%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1680px) and (max-width: 1920px) {
+  .pegiwidth {
+    width: 86%;
+    margin: auto;
+  }
+}

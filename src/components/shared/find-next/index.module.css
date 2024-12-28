@@ -1,0 +1,101 @@
+.findsectionbg {
+  background: url(../../../../public/images/home/findbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 20px;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+
+.findtextarea h6 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: white;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.bg {
+  margin-top: 122px;
+}
+
+.findtextarea p {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff8f5;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.findbtn {
+  margin-top: 10px;
+  background: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c72966;
+  padding: 15px 30px;
+  border: none !important;
+}
+
+.findbtn:hover {
+  background: #f0833b;
+  border-color: #ef813b;
+  color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* find section css end here */
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (max-width: 767px) {
+  .findtextarea h6 {
+    font-size: 22px !important;
+    line-height: 26px !important;
+  }
+
+  .findtextarea p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .findtextarea br {
+    display: none;
+  }
+
+  .findsectionbg {
+    background: linear-gradient(
+      179deg,
+      #523578 1.06%,
+      #d32864 52.68%,
+      #f59433 96.59%
+    );
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .findtextarea br {
+    display: none;
+  }
+
+  .findtextarea p {
+    font-size: 26px;
+  }
+}

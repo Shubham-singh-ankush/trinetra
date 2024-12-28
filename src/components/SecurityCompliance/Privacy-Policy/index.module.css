@@ -1,0 +1,72 @@
+/* banner section css start*/
+.bannerbg {
+  background-image: linear-gradient(
+    265deg,
+    #523578 1.03%,
+    #d32864 51.26%,
+    #f59433 93.99%
+  );
+  padding: 70px 0px;
+}
+
+.headingbg {
+  background-image: url("/public/images/Policy/Privacy\ Policy.png");
+  height: 66px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.headingbg h1 {
+  margin: 0px;
+  padding-left: 5px;
+  padding-top: 29px;
+  color: #fff8f5;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  padding-top: 14px;
+}
+
+/* banner section css end*/
+
+.privicy h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #07242f;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+.privicy p {
+  color: #6c6c72;
+  font-size: 18px;
+}
+
+.privicy li {
+  color: #6c6c72;
+  font-size: 18px;
+}
+.priviMain {
+  padding: 6rem 0rem;
+  background-color: #fff !important;
+}
+
+@media (min-width: 170px) and (max-width: 768px) {
+  .headingbg h1 {
+    margin: 0px;
+    padding-left: 5px;
+    padding-top: 29px;
+    color: #fff8f5;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-top: 4px;
+  }
+  .privicy p {
+    color: #6c6c72;
+    font-size: 15px;
+  }
+  .privicy li {
+    color: #6c6c72;
+    font-size: 15px;
+  }
+}

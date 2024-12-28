@@ -1,0 +1,712 @@
+.bannerinfo h1 {
+  font-size: 70px !important;
+  font-weight: 600;
+}
+.thoroughtMobile {
+  display: none;
+}
+.reduce ul li {
+  list-style: none;
+  margin-bottom: 11px;
+  display: flex;
+  object-fit: cover;
+  align-items: flex-start;
+}
+.bannerinfo span {
+  font-size: 70px;
+  color: #f59433;
+}
+
+.bannerinfo p {
+  font-size: 70px;
+  color: #5f3376;
+  display: inline-block;
+}
+
+.bannerinfo h3 {
+  font-size: 70px;
+  color: #c72966;
+  display: inline;
+  font-weight: 600;
+}
+.banerin {
+  font-size: 16px;
+  color: #3c3c3c;
+}
+.bannerinfo b {
+  color: #6c6c72;
+  display: block;
+  font-weight: 400;
+  margin: 33px 0;
+  font-size: 20px;
+}
+.heroiImg {
+  text-align: right;
+}
+.bannersection {
+  padding: 70px 0;
+}
+.bannerinfo {
+  margin-top: 71px;
+}
+.logosection p {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+}
+.bannerinfo button {
+  background: #c72966;
+  border: none;
+  padding: 10px 14px;
+  color: #fff;
+  font-size: 19px;
+}
+
+.bannerinfo button:hover {
+  background: #f59433;
+  border: none;
+  padding: 10px 14px;
+  color: #fff;
+  font-size: 19px;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+/* logosection css start here */
+.logosection img {
+  margin-top: 25px;
+}
+.logosection {
+  padding-top: 50px;
+}
+
+/* logosection css end here */
+
+/* featuressec css start here */
+.featuressec {
+  padding-top: 100px;
+}
+.featurinfo {
+  text-align: center;
+}
+.featurinfo h4 {
+  font-size: 40px;
+  color: #07242f;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.featurinfo p {
+  color: #6c6c72;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.featurrbox:hover,
+.featurrbox1:hover,
+.featurrbox2:hover,
+.featurrbox3:hover {
+  transform: scale(1.07);
+  transition: all 0.5s ease-in-out;
+  background: linear-gradient(
+    137.51deg,
+    #583477 -11.87%,
+    #c42a66 47.28%,
+    #f38d36 111.76%
+  );
+}
+.featurrbox {
+  background: #f59433;
+  box-shadow: 0px 0px 8px 0.5px hsba(0, 0%, 0%, 0.25);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 20px;
+}
+.featurrbox h5,
+.featurrbox1 h5,
+.featurrbox2 h5,
+.featurrbox3 h5 {
+  font-size: 25px;
+  color: #ededed;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.featurrbox h5 span,
+.featurrbox1 h5 span,
+.featurrbox2 h5 span,
+.featurrbox3 h5 span {
+  font-size: 23px;
+  font-weight: 600;
+  color: #fff;
+}
+.featurrbox1 {
+  background: #5f3376;
+  box-shadow: 0px 0px 8px 0.5px hsba(0, 0%, 0%, 0.25);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 20px;
+}
+.featurrbox2 {
+  background: #f7d394;
+  box-shadow: 0px 0px 8px 0.5px hsba(0, 0%, 0%, 0.25);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 20px;
+}
+.featurrbox3 {
+  background: #c72966;
+  box-shadow: 0px 0px 8px 0.5px hsba(0, 0%, 0%, 0.25);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 20px;
+}
+/* featuressec css end here */
+.thoroughtPree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reducesection {
+  padding: 150px 0 0 0;
+}
+.reduceimg img {
+  width: 100%;
+}
+.reduce h5 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.reduce p {
+  font-size: 20px;
+  color: #6c6c72;
+  margin: 20px 0;
+}
+.reduce ul li:hover {
+  transform: translateX(5px);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.reduce ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.reduce ul {
+  padding: 0;
+}
+
+.reduce li span {
+  color: #6c6c72;
+  margin-left: 18px;
+  font-size: 20px;
+}
+.bg {
+  background: #eeeeee;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+/* featuressec css end  */
+
+/* Staff section css start here */
+.staffsec {
+  padding: 100px 0;
+}
+.staffin {
+  text-align: center;
+}
+.staffin h5 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.staffin p {
+  font-size: 20px;
+  color: #6c6c72;
+  margin: 20px 0;
+}
+.staffinbox {
+  padding: 20px;
+  background: linear-gradient(
+    137.51deg,
+    #583477 -11.87%,
+    #c42a66 47.28%,
+    #f38d36 111.76%
+  );
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-top: 30px;
+  height: 100%;
+}
+.staffinbox:hover {
+  transform: scale(1.05);
+  transition: all 0.8s ease-in-out;
+  background: linear-gradient(
+    90.51deg,
+    #583477 -11.87%,
+    #c42a66 47.28%,
+    #f38d36 111.76%
+  );
+}
+
+.staffinbox h2 {
+  font-size: 26px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.staffinbox p {
+  color: #fff;
+  font-size: 15px;
+}
+.staffinbox span img {
+  float: right;
+  margin: 10px;
+  max-height: 40px;
+}
+
+/* Staff section css end here */
+
+/* our cleint section start css */
+
+.ourcleintbg {
+  background: #5f3376;
+  padding: 50px 20px !important;
+  margin-bottom: 50px !important;
+}
+.clientheading h5 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+.clientheading p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3c3c3c;
+}
+.cleintbox {
+  border-radius: 17px;
+  background: #ffffff;
+  margin: 20px;
+  /* max-width: 440px; */
+  padding: 20px;
+}
+.boxflex {
+  display: flex;
+}
+.cleintbox p {
+  margin-top: 15px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6c6c72;
+}
+.cleintbox h2 {
+  color: #6c6c72;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cleintbox h6 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0px !important;
+  color: #6c6c72;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.marqueetag {
+  width: max-content;
+  transform: translateX(0);
+  animation: a-text-scroll 15s infinite;
+  -webkit-animation: a-text-scroll 15s infinite;
+}
+@keyframes a-text-scroll {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0%, 0, 0);
+  }
+}
+
+/* our cleint section end css */
+
+/* find section css start here
+
+.findsectionbg {
+  background: url(../../../public/images/home/findbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 20px;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+.findtextarea h6 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: white;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.bg {
+  margin-top: 122px;
+}
+.findtextarea p {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff8f5;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.findbtn {
+  margin-top: 10px;
+  background: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c72966;
+  padding: 15px 30px;
+}
+.findbtn:hover {
+  background: #f0833b;
+  border-color: #ef813b;
+  color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+
+/* find section css end here */
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 767px) and (max-width: 991px) {
+  /* .bannerinfo {
+    margin-top: 71px;
+} */
+
+  .bannersection {
+    padding: 0px 0px !important;
+  }
+  .heroiImg img {
+    width: 55% !important;
+  }
+
+  .heroiImg {
+    margin-top: 25px;
+    text-align: center !important;
+  }
+  .logosection img {
+    margin-top: 24px;
+    width: 100px;
+  }
+  .bannerinfo h3,
+  .bannerinfo p,
+  .bannerinfo span,
+  .bannerinfo h1 {
+    font-size: 43px !important;
+    text-align: center;
+    font-weight: 600 !important;
+  }
+  .logosection {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .reverceBanner {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .featurinfo h4,
+  .outsecsec h5 {
+    font-size: 29px !important;
+  }
+  .featurrbox,
+  .featurrbox1,
+  .featurrbox2 {
+    margin-bottom: 10px;
+  }
+  .bannersection {
+    padding: 0;
+  }
+  .bannerinfo b {
+    margin: 13px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  .bannerinfo button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .featurinfo p {
+    font-size: 16px;
+  }
+  .featuressec {
+    padding-top: 50px;
+  }
+  .reducesection {
+    padding: 50px 0 0 0;
+  }
+  .reduce h5 {
+    text-align: left;
+    font-size: 29px;
+    margin-top: 20px;
+  }
+  .reduce p {
+    margin: 16px 0;
+    text-align: left;
+    font-size: 16px;
+  }
+  .reduce li span {
+    font-size: 16px;
+  }
+  .bg h5 {
+    margin-top: 30px !important;
+  }
+  .staffsec {
+    padding: 50px 0;
+  }
+  .staffin h5 {
+    font-size: 29px;
+  }
+  .staffin p {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  .featuressec br {
+    display: none !important;
+  }
+  .featurrbox h5 span,
+  .featurrbox1 h5 span,
+  .featurrbox2 h5 span,
+  .featurrbox3 h5 span {
+    font-size: 30px;
+  }
+
+  .reduceimg img {
+    width: 65% !important;
+  }
+  .reduceimg {
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .featurinfo h4 {
+    font-size: 30px;
+  }
+  .heroiImg img {
+    width: 80%;
+  }
+  .featurrbox h5 span,
+  .featurrbox1 h5 span,
+  .featurrbox2 h5 span,
+  .featurrbox3 h5 span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .logosection img {
+    width: 100%;
+  }
+  .bannerinfo h3,
+  .bannerinfo p,
+  .bannerinfo span,
+  .bannerinfo h1 {
+    font-size: 40px !important;
+    text-align: left;
+  }
+  .bannerinfo b {
+    text-align: left;
+  }
+  .bannerinfo button {
+    text-align: left !important;
+    margin-right: auto !important;
+    display: inline;
+  }
+  .reduce h5 {
+    text-align: left;
+    font-size: 28px;
+  }
+  .reduce p {
+    margin: 16px 0;
+    text-align: left;
+    font-size: 18px;
+  }
+  .reduce li span {
+    color: #6c6c72;
+    margin-left: 18px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1599px) {
+  .lastOngoing p {
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .logosection img {
+    width: 100%;
+  }
+  .heroiImg img {
+    width: 100% !important;
+  }
+  .bannerinfo h1 {
+    font-size: 50px !important;
+  }
+  .bannerinfo span {
+    font-size: 50px;
+  }
+  .bannerinfo p {
+    font-size: 50px;
+  }
+  .reduce h5 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 170px) and (max-width: 500px) {
+  .thoroughtPree {
+    display: none;
+  }
+  .thoroughtMobile {
+    display: block;
+  }
+  .heroiImg img {
+    width: 100% !important;
+  }
+  .bannerinfo h1 {
+    font-size: 35px !important;
+    font-weight: 600;
+  }
+  .bannerinfo span {
+    font-size: 35px;
+    color: #f59433;
+  }
+  .bannerinfo {
+    margin-top: 71px;
+    text-align: center;
+  }
+  .bannerinfo p {
+    font-size: 35px;
+    color: #5f3376;
+    display: inline-block;
+  }
+  .bannerinfo b {
+    color: #6c6c72;
+    display: block;
+    font-weight: 400;
+    margin: 4px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .bannersection {
+    padding: 20px 0;
+  }
+  .logosection {
+    text-align: center;
+  }
+  .logosection img {
+    margin-top: 15px;
+  }
+  .featuressec {
+    padding-top: 20px;
+  }
+  .featurinfo h4 {
+    font-size: 30px;
+    color: #07242f;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  .featurinfo p {
+    color: #6c6c72;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .featurrbox,
+  .featurrbox1,
+  .featurrbox2 {
+    margin-bottom: 20px;
+  }
+  .reducesection {
+    padding: 20px 0px;
+  }
+  .reduce h5 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .reduce p {
+    font-size: 16px;
+    color: #6c6c72;
+    margin: 20px 0;
+  }
+  .reduce li span {
+    color: #6c6c72;
+    margin-left: 7px;
+    font-size: 16px;
+  }
+  .staffin h5 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .staffsec {
+    padding: 21px 0;
+    margin-bottom: 125px;
+  }
+  .staffin p {
+    font-size: 16px;
+    color: #3c3c3c;
+    margin: 20px 0;
+  }
+  .clientheading h5 {
+    font-size: 18px;
+    line-height: 0px;
+  }
+  .staffinbox {
+    height: 95%;
+  }
+}

@@ -1,0 +1,133 @@
+.faqbanner {
+  background: url(../../../public/images/faq/faqpic.png);
+  height: 335px;
+  background-size: cover;
+}
+
+.faqinfo {
+  padding: 50px 0px;
+}
+.faqinfo img {
+  width: 70%;
+}
+.picfaq h4 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.picfaq {
+  padding-top: 50px;
+}
+.picfaq p {
+  color: #6c6c72;
+  font-size: 20px;
+}
+.picfaq1 {
+  text-align: center;
+}
+.faqsection {
+  background: #eeeeee;
+  padding: 50px 0px;
+}
+
+.faqsection h3 {
+  font-size: 29px;
+  color: #333333;
+  font-weight: 500;
+  margin-bottom: 50px;
+  position: relative;
+}
+.faqsection h3:before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 4px;
+  background: #f38e36;
+  bottom: -16px;
+}
+
+.contactForm {
+  height: auto;
+  background-size: cover;
+  padding: 40px 60px;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contactMail h5 {
+  font-size: 45px;
+  text-align: center;
+  color: #07242f;
+}
+
+.contactMail p {
+  font-size: 20px;
+  text-align: center;
+  color: #6c6c72;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.mainForm {
+  padding: 15px;
+  border-radius: 0px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn .formbtn {
+  background-color: #f59435;
+  border: 0px !important;
+  border-radius: 0px !important;
+  padding: 12px 47px;
+}
+.textareaForm {
+  border-radius: 0px;
+}
+.contactform input {
+  border: none !important;
+  background: #eeeeee !important;
+}
+.textareaForm {
+  border: none !important;
+  background: #eeeeee !important;
+}
+
+@media (max-width: 767px) {
+  .faqbanner {
+    height: 100px;
+  }
+  .picfaq h4 {
+    font-size: 22px;
+  }
+  .picfaq p {
+    font-size: 16px;
+  }
+  .contactForm {
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 40px;
+  }
+  .contactMail h5 {
+    font-size: 23px;
+    margin-bottom: 23px;
+  }
+  .contactMail p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contactMail h5 {
+    font-size: 24px;
+  }
+  .contactForm {
+    padding: 0px;
+  }
+  .contactMail p {
+    font-size: 14px;
+  }
+}
